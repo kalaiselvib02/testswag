@@ -1,0 +1,27 @@
+2024-02-13T11:53:05.382Z [32minfo[39m: CDW Swag server running on port 3333
+2024-02-13T11:53:05.383Z [32minfo[39m: CRON Jobs Started
+2024-02-13T11:53:05.460Z [32minfo[39m: Connected to MongoDB
+2024-02-13T11:53:08.712Z [32minfo[39m: Wallet login successful
+2024-02-13T11:53:08.770Z [32minfo[39m: Token Successfully generated
+2024-02-13T11:53:08.775Z [32minfo[39m: User successfully authenticated
+2024-02-13T11:53:38.154Z [32minfo[39m: User Authenticated
+2024-02-13T11:53:38.513Z [32minfo[39m: Coupon Saved into DB
+2024-02-13T11:53:41.893Z [32minfo[39m: PDF created
+2024-02-13T11:54:00.468Z [32minfo[39m: CRON Expiration Job : Checking for Expiration Date
+2024-02-13T11:54:00.471Z [32minfo[39m: CRON Backup Job : Running Backup Job
+2024-02-13T11:54:00.473Z [32minfo[39m: CRON Expiration Job : No Jobs in queue
+2024-02-13T11:55:36.984Z [32minfo[39m: CDW Swag server running on port 3333
+2024-02-13T11:55:36.986Z [32minfo[39m: CRON Jobs Started
+2024-02-13T11:55:37.009Z [32minfo[39m: Connected to MongoDB
+2024-02-13T11:56:00.024Z [32minfo[39m: CRON Expiration Job : Checking for Expiration Date
+2024-02-13T11:56:00.026Z [32minfo[39m: CRON Backup Job : Running Backup Job
+2024-02-13T11:56:00.028Z [32minfo[39m: CRON Expiration Job : No Jobs in queue
+2024-02-13T11:56:24.464Z [32minfo[39m: User Authenticated
+2024-02-13T11:56:24.849Z [32minfo[39m: Coupon Saved into DB
+2024-02-13T11:56:28.015Z [32minfo[39m: PDF created
+2024-02-13T11:57:00.116Z [32minfo[39m: CRON Expiration Job : Checking for Expiration Date
+2024-02-13T11:57:00.122Z [32minfo[39m: CRON Backup Job : Running Backup Job
+2024-02-13T11:57:00.124Z [32minfo[39m: CRON Expiration Job : No Jobs in queue
+2024-02-13T11:57:01.318Z [32minfo[39m: sent HR Email
+2024-02-13T11:57:04.319Z [32minfo[39m: PDF created
+2024-02-13T11:57:06.809Z [32minfo[39m: Mails sent for the rewards created by HR
