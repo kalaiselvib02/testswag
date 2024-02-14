@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coupons</title>
+    <style>
+        html { -webkit-print-color-adjust: exact; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10vh;
+            height: 100vh;
+            width: 100vw;
+            font-family: Georgia, serif;
+            font-size: large;
+            font-weight: 500;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 25vh;
+            width: 60vw;
+            gap: 1.25vh;
+            background-color: #FBFADA;
+            color: #12372A;
+        }
+        p.coupon-identifier span{
+            font-weight: bold;
+            color: #436850;
+        }
+    </style>
+</head>
+
+<body>
+    <% if (rewards.length> 0) { %>
+        <% rewards.forEach(reward=> {%>
+            <div class="coupon">
+                <p>Congratulations!</p>
+                <p>
+                    <%= reward.rewardPoints %>
+                </p>
+                <p>
+                    <%= reward.rewardCategory?.name ?? reward.rewardCategory %>
+                </p>
+                <% if (reward?.isHRContext) { %>
+                    <p class="coupon-identifier">Coupon Code: <span>
+                            <%= reward.couponCode %>
+                        </span>
+                    </p>
+                <% } else { %>
+                    <p class="coupon-identifier">Secret Code: <span>
+                            <%= reward.secretCode %>
+                        </span>
+                    </p>
+                <% } %>
+            </div>
+            <% });%>
+                <% }%>
+</body>
+
+</html>
